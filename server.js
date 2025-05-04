@@ -1,10 +1,10 @@
-const express = require('express');
-const chalk = require('chalk');
-const axios = require('axios'); // Tambahkan axios untuk mengirim request ke webhook Discord
 
+import express from 'express';
+import chalk from 'chalk';
+import axios from 'axios'; 
 const app = express();
 
-const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1360898630655152351/sLC0UFBL6bf3U3q7z9HAKqL8-ZU012-8E9vjY2jg7NSZCPcfXULgDO1hDk2yzguc82E8'; // Ganti dengan URL webhook Discord kamu
+const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/YOUR_WEBHOOK_URL';
 
 app.use((req, res, next) => {
   const { method, url } = req;
@@ -14,6 +14,7 @@ app.use((req, res, next) => {
     console.log(chalk.green(`[INFO] ${method} ${url} (${statusCode})`));
   } else if (statusCode === 404) {
     console.log(chalk.red(`[WARN] ${method} ${url} (${statusCode})`));
+
     axios.post(DISCORD_WEBHOOK_URL, {
       content: `404 Not Found: ${method} ${url}`
     }).catch(err => {
