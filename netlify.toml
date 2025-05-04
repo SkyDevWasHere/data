@@ -7,3 +7,4 @@
   status = 404
   force = true
   rewrite = true
+  conditions = { Query = { bypass = "!true" }}

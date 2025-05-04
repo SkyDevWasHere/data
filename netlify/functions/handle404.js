@@ -1,64 +1,67 @@
 const axios = require('axios');
 
-// Konfigurasi token dan chat ID Telegram
 const TELEGRAM_BOT_TOKEN = "7781366082:AAGcABsFljdIfO0kn8MPB6F1xhCYy-LAVnM";
 const TELEGRAM_CHAT_ID = "1099301022";
 
 exports.handler = async (event, context) => {
-  // Mengambil path dari query string
-  const originalPath = event.queryStringParameters?.path || 'Unknown path';
+  const originalPath = event.queryStringParameters?.path;
 
-  // Jika path ditemukan (valid), tidak perlu mengirimkan notifikasi
-  if (originalPath === 'Unknown path') {
-    return {
-      statusCode: 200,
-      body: JSON.stringify({ message: "Path valid, tidak dikirim ke Telegram." })
-    };
+  // Jika tidak ada path, langsung return 404
+  if (!originalPath) {
+    return { statusCode: 404, body: 'Not Found' };
   }
 
-  // Jika path tidak valid (404), kirimkan pesan ke Telegram
-  // Ambil IP pengunjung dari headers
-  const ip = event.headers['x-forwarded-for'] || event.headers['remote-addr'] || 'Unknown IP';
+  // Dapatkan host dari header request
+  const host = event.headers.host;
+  const checkUrl = `https://${host}/${originalPath}?bypass=true`;
 
-  // Format waktu saat ini
+  try {
+    // Cek apakah file benar-benar tidak ada dengan HEAD request
+    const response = await axios.head(checkUrl, { timeout: 5000 });
+    
+    // Jika file ada (status 200), redirect ke path tersebut
+    if (response.status === 200) {
+      return {
+        statusCode: 302,
+        headers: { Location: `/${originalPath}` },
+        body: ''
+      };
+    }
+  } catch (error) {
+    // Hanya proses jika error 404, selain itu return error
+    if (!(error.response && error.response.status === 404)) {
+      console.error('Error:', error.message);
+      return { statusCode: 500, body: 'Internal Server Error' };
+    }
+  }
+
+  // Proses mengirim notifikasi Telegram
+  const ip = event.headers['x-forwarded-for'] || event.headers['remote-addr'] || 'Unknown IP';
   const timestamp = new Date().toISOString();
 
-  // Format pesan yang akan dikirim ke Telegram
   const message = `
 *⚠️ 404 Error Detected*
-  
+
 *Path:* \`${originalPath}\`
 *Timestamp:* ${timestamp}
 *IP Address:* ${ip}
 
 \`Error Type:\` 404 Not Found
-`;
-
-  // Susun URL API Telegram
-  const TELEGRAM_API_URL = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+  `;
 
   try {
-    // Kirim POST request ke Telegram API untuk mengirim pesan
-    const response = await axios.post(TELEGRAM_API_URL, {
+    await axios.post(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
       chat_id: TELEGRAM_CHAT_ID,
       text: message,
-      parse_mode: 'Markdown' // Menggunakan Markdown untuk format pesan
+      parse_mode: 'Markdown'
     });
-
-    // Log respons dari Telegram (untuk debugging)
-    console.log('Telegram response:', response.data);
-
-    return {
-      statusCode: 200,
-      body: JSON.stringify({ message: "Notifikasi 404 berhasil dikirim ke Telegram" })
-    };
   } catch (error) {
-    // Jika terjadi error saat mengirim pesan ke Telegram
-    console.error("Error mengirim pesan ke Telegram:", error.message);
-
-    return {
-      statusCode: 500,
-      body: JSON.stringify({ message: "Gagal mengirim notifikasi ke Telegram", error: error.message })
-    };
+    console.error("Gagal mengirim ke Telegram:", error.message);
   }
+
+  // Return response 404 ke client
+  return {
+    statusCode: 404,
+    body: JSON.stringify({ message: "Halaman tidak ditemukan" })
+  };
 };
