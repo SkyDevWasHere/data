@@ -4664,4 +4664,82 @@
 		<EnableOnServer>true</EnableOnServer>
 	</Pet>
 
+	<Pet itemID="ITEM_ID_DISCOBALL_COMPANION">
+		<Name>"Discoball Companion"</Name>
+		<SubName>"disco"</SubName>
+		<EndName>"groovy"</EndName>
+		<PowerName>"Just Dance!"</PowerName>
+		<PowerDesc>"Infect the target to dance for 4s, unable to do anything other than swap out, and suffering 5 `wAir`` Damage per second."</PowerDesc>
+		<Element>"AIR"</Element>
+		<Damage>0</Damage>
+		<Cooldown>20</Cooldown>
+		<PowerType>"ATTACK"</PowerType>
+		<PowerFlags>0</PowerFlags>
+		<PowerStatusGroup>
+			<PowerStatus type="DISCO_FEVER">
+				<Value>5</Value>
+				<Duration>4</Duration>
+			</PowerStatus>
+		</PowerStatusGroup>
+		<AnimType>"SHOOT"</AnimType>
+		<PowerParticle>174</PowerParticle>
+		<HitParticle>0</HitParticle>
+		<PowerParticleV2>0</PowerParticleV2>
+		<HitParticleV2>0</HitParticleV2>
+		<PowerSound>"audio/bubble_boil.wav"</PowerSound>
+		<PowerHitSound>"audio/fight_loop.wav"</PowerHitSound>
+		<Rarity>90</Rarity>
+		<EnableOnServer>true</EnableOnServer>
+	</Pet>
+
+	<Pet itemID="ITEM_ID_ROBO_SHARK">
+		<Name>"Robo Shark"</Name>
+		<SubName>"chomp"</SubName>
+		<EndName>"afin"</EndName>
+		<PowerName>"Laserbeam!"</PowerName>
+		<PowerDesc>"Fires a laserbeam dealing `1Water`` Damage!"</PowerDesc>
+		<Element>"WATER"</Element>
+		<Damage>30</Damage>
+		<Cooldown>13</Cooldown>
+		<PowerType>"ATTACK"</PowerType>
+		<PowerFlags></PowerFlags>
+		<AnimType>"SHOOT"</AnimType>
+		<PowerParticle>10</PowerParticle>
+		<HitParticle>11</HitParticle>
+		<PowerParticleV2>0</PowerParticleV2>
+		<HitParticleV2>0</HitParticleV2>
+		<PowerSound>"audio/laser.wav"</PowerSound>
+		<PowerHitSound>""</PowerHitSound>
+		<Rarity>90</Rarity>
+		<EnableOnServer>true</EnableOnServer>
+	</Pet>
+	
+	<Pet itemID="ITEM_ID_FLYING_BELL">
+		<Name>"Flying Bell"</Name>
+		<SubName>"flying"</SubName>
+		<EndName>"bell"</EndName>
+		<PowerName>"Sound Blast!"</PowerName>
+		<PowerDesc>"Blast sound waves to deal 9 `wAir`` damage!"</PowerDesc>
+		<Element>"AIR"</Element>
+		<Damage>9</Damage>
+		<Cooldown>5</Cooldown>
+		<PowerType>"ATTACK"</PowerType>
+		<PowerFlags>2</PowerFlags>
+		<PowerStatusGroup>
+			<PowerStatus type="STUNNED">
+				<Value>0</Value>
+				<Duration>1</Duration>
+			</PowerStatus>
+		</PowerStatusGroup>
+		<AnimType>"SHOOT"</AnimType>
+		<PowerParticle>163</PowerParticle>
+		<HitParticle>0</HitParticle>
+		<PowerParticleV2>0</PowerParticleV2>
+		<HitParticleV2>0</HitParticleV2>
+		<PowerSound>"audio/peep.wav"</PowerSound>
+		<PowerHitSound>""</PowerHitSound>
+		<Rarity>90</Rarity>
+		<EnableOnServer>true</EnableOnServer>
+	</Pet>
+
 </BattlePets>

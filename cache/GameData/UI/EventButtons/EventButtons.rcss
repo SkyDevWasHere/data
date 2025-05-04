@@ -539,3 +539,64 @@
 }
 
 /*-------------------------------------------------------------------------------*/
+/*--------------           Easter event button             --------------*/
+
+@spritesheet easter_event_button_sprite {
+    src: interface/large/event_button2.rttex;
+    resolution: 1x;
+    easter_event_icon_stat0: 0px 256px 128px 128px;
+    easter_event_icon_stat1_anim: 0px 384px 128px 128px;
+    easter_event_icon_stat1: 128px 256px 128px 128px;
+}
+
+.event_item .state0 .easter_event {
+    decorator: image(easter_event_icon_stat0);
+}
+
+.event_item .state1 .easter_event {
+    decorator: image(easter_event_icon_stat1);
+}
+
+    .event_item .state1 .easter_event .rays {
+        decorator: image(easter_event_icon_stat1_anim);
+        animation: 3s fade-in-out infinite;
+    }
+
+.easter_event .label {
+    margin-top: 43dp;
+}
+
+/*--------------         Cinco pinata event button         --------------*/
+
+@spritesheet cinco_pinata_button_sprite {
+    src: interface/large/event_button.rttex;
+    resolution: 1x;
+    cinco_pinata_button_state0_icon: 256px 0px 128px 128px;
+    cinco_pinata_button_state1_icon: 256px 128px 128px 128px;
+    cinco_pinata_button_state2_icon: 384px 128px 128px 128px;
+    cinco_pinata_button_state1_anim_icon: 384px 0px 128px 128px;
+}
+
+.cinco_pinata_event .label {
+    margin-top: 47dp;
+}
+
+.event_item .state0 .cinco_pinata_event {
+    decorator: image(cinco_pinata_button_state0_icon);
+}
+
+.event_item .state1 .cinco_pinata_event {
+    decorator: image(cinco_pinata_button_state1_icon);
+}
+
+.event_item .state2 .cinco_pinata_event {
+    decorator: image(cinco_pinata_button_state2_icon);
+}
+
+.event_item .state1 .cinco_pinata_event .rays {
+    opacity: 0;
+    decorator: image(cinco_pinata_button_state1_anim_icon);
+    animation: 2s infinite alternate pause-fade-in;
+}
+
+/*-------------------------------------------------------------------------------*/
