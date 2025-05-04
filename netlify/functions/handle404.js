@@ -6,7 +6,7 @@ const TELEGRAM_CHAT_ID = "1099301022";
 
 exports.handler = async (event, context) => {
   // Ambil query parameter 'path' atau referer
-  const originalPath = event.queryStringParameters?.path || event.headers.referer || 'Unknown path';
+  const originalPath = event.queryStringParameters?.path || event.path || 'Unknown path';
 
   // Ambil IP yang merequest
   const ip = event.headers['x-forwarded-for'] || event.headers['remote-addr'] || 'Unknown IP';
