@@ -2,7 +2,7 @@
   functions = "netlify/functions"
 
 [[redirects]]
-  from = "/*"
+  from = "/:splat"
   to = "/.netlify/functions/handle404?path=:splat"
   status = 404
   force = true
