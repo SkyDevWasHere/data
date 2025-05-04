@@ -1,0 +1,24 @@
+"
+add_label_with_icon|big|Add Extra File|left|5956|
+add_spacer|small|
+add_custom_button|add_extra_filechoosed|textLabel:Add All Extra Choosed;middle_colour:4287365375;border_colour:4287365375;display:block;|
+add_spacer|small|
+add_spacer|small|
+add_custom_button|add_extra_file_interface/large/skydev_store_layout.rttex_-1500311124|textLabel:Add Banner Layout Store;middle_colour:4287365375;border_colour:4287365375;display:block;|
+add_spacer|small|
+add_custom_button|add_extra_file_interface/large/skydev_store_banner_red.rttex_-939162614|textLabel:Add Banner Store Red;middle_colour:4287365375;border_colour:4287365375;display:block;|
+
+add_spacer|small|
+add_custom_button|add_extra_file_interface/large/skydev_store_tools.rttex_-1679989833|textLabel:Add Banner Store Tools;middle_colour:4287365375;border_colour:4287365375;display:block;|
+
+add_spacer|small|
+add_custom_button|add_extra_file_interface/large/skydev_store_farmable.rttex_-1971964236|textLabel:Add Banner Store Farmable;middle_colour:4287365375;border_colour:4287365375;display:block;|
+
+add_spacer|small|
+add_custom_button|add_extra_file_interface/large/skydev_store_text.rttex_1443937386|textLabel:Add Text Store Banner;middle_colour:4287365375;border_colour:4287365375;display:block;|
+
+
+add_spacer|small|
+add_custom_button|add_extra_file_interface/large/skydev_store_lock.rttex_-1353464329|textLabel:Add Lock Store Banner;middle_colour:4287365375;border_colour:4287365375;display:block;|
+add_spacer|small|
+"

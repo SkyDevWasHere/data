@@ -1,0 +1,38 @@
+"
+disable_resize|
+start_custom_tabs|
+add_custom_button|shopgems|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:1,0;width:0.15;min_width:80;|
+add_custom_button|shopgems2|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:3,0;width:0.15;min_width:80;|
+add_custom_button|shopgems3|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:5,0;width:0.15;min_width:80;|
+add_custom_button|shopgems4|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:6,0;width:0.15;min_width:80;|
+add_custom_button|shopgems5|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:9,0;width:0.15;min_width:80;|
+add_custom_button|shopgems6|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:1,1;width:0.15;min_width:80;|
+end_custom_tabs|
+reset_placement_x|
+
+
+add_custom_button||image:interface/large/skydev_store_text.rttex;image_size:1024,80;state:disabled;frame:3,0;width:1;|
+add_custom_margin|x:0;y:20|
+
+//tractor
+add_custom_button|shopgems_1_898_25000_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:0,0;width:0.19;|
+add_custom_label|`925,000 GEMS``|size:tiny;target:shopgems_1_898_25000_gems;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//gaia
+add_custom_button|shopgems_1_6946_950000_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:1,0;width:0.19;|
+add_custom_label|`9950,000 GEMS``|size:tiny;target:shopgems_1_6946_950000_gems;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//unstable tesseract
+add_custom_button|shopgems_1_6948_350000_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:2,0;width:0.19;|
+add_custom_label|`9350,000 GEMS``|size:tiny;target:shopgems_1_6948_350000_gems;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+
+//magplant 5k
+add_custom_button|shopgems_1_5638_2500000_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:3,0;width:0.19;|
+add_custom_label|`92,500,000 GEMS``|size:tiny;target:shopgems_1_5638_2500000_gems;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+"

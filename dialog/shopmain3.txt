@@ -1,0 +1,104 @@
+"
+disable_resize|
+start_custom_tabs|
+add_custom_button|shopgems|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:1,0;width:0.15;min_width:80;|
+add_custom_button|shopgems2|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:3,0;width:0.15;min_width:80;|
+add_custom_button|shopgems3|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:4,0;width:0.15;min_width:80;|
+add_custom_button|shopgems4|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:7,0;width:0.15;min_width:80;|
+add_custom_button|shopgems5|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:9,0;width:0.15;min_width:80;|
+add_custom_button|shopgems6|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:1,1;width:0.15;min_width:80;|
+end_custom_tabs|
+reset_placement_x|
+
+
+add_custom_button||image:interface/large/skydev_store_text.rttex;image_size:1024,80;state:disabled;frame:2,0;width:1;|
+add_custom_margin|x:0;y:20|
+
+//madara
+add_custom_button|shopgems_1_15282_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:0,0;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_15282_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//naruto
+add_custom_button|shopgems_1_15246_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:1,0;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_15246_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//luffy
+add_custom_button|shopgems_1_15284_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:2,0;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_15284_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//gojo
+add_custom_button|shopgems_1_15278_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:3,0;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_15278_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//ultraman
+add_custom_button|shopgems_1_15276_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:4,0;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_15276_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:0;y:10|
+
+//ichigo
+add_custom_button|shopgems_1_15288_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:6,0;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_15288_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//goku
+add_custom_button|shopgems_1_15280_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:7,0;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_15280_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//gojov2
+add_custom_button|shopgems_1_10176_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:8,0;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_10176_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//naruto barion
+add_custom_button|shopgems_1_15286_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:9,0;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_15286_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//mario smash
+add_custom_button|shopgems_1_19530_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:0,1;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_19530_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:0;y:10|
+
+//mariomx
+add_custom_button|shopgems_1_19524_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:1,1;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_19524_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//sonic dash
+add_custom_button|shopgems_1_19538_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:2,1;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_19538_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//golden lwing
+add_custom_button|shopgems_1_20708_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:3,1;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_20708_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//golden legendary wing
+add_custom_button|shopgems_1_2592_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:4,1;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_2592_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+
+//legendary frost knight
+add_custom_button|shopgems_1_20710_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:5,1;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_20710_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:0;y:10|
+
+
+//legendary rayman
+add_custom_button|shopgems_1_9906_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:6,1;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_9906_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//mythical rayman
+add_custom_button|shopgems_1_9908_199000_wl|image:interface/large/skydev_store_banner_red.rttex;image_size:300,300;state:enabled;frame:7,1;width:0.19;|
+add_custom_label|`9199,000 WL``|size:tiny;target:shopgems_1_9908_199000_wl;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+"
