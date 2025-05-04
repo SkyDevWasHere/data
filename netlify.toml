@@ -2,8 +2,8 @@
   functions = "netlify/functions"
 
 [[redirects]]
-from = "/*"
-to = "/.netlify/functions/handle404"
-query = {path = ":splat"} # Parameter yang benar
-status = 404
-force = true
+  from = "/*"
+  to = "/.netlify/functions/handle404"
+  query = {path = ":splat"}
+  status = 404
+  force = true
