@@ -1,13 +1,10 @@
+
 import express from 'express';
 import chalk from 'chalk';
-import axios from 'axios';
-import path from 'path'; // Import path to handle directory paths
+import axios from 'axios'; 
 const app = express();
 
 const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1360898630655152351/sLC0UFBL6bf3U3q7z9HAKqL8-ZU012-8E9vjY2jg7NSZCPcfXULgDO1hDk2yzguc82E8';
-
-// Serve the '/cache' directory as static files
-app.use('/cache', express.static(path.join(__dirname, 'cache')));
 
 app.use((req, res, next) => {
   const { method, url } = req;
