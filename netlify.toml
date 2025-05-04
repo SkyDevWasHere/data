@@ -1,8 +1,0 @@
-[build]
-  functions = "netlify/functions"
-
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/handle404"
-  query = {path = ":splat"}
-  status = 404
