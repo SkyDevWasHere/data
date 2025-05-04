@@ -6,4 +6,3 @@
   to = "/.netlify/functions/handle404"
   query = {path = ":splat"}
   status = 404
-  force = true
