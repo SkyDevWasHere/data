@@ -5,8 +5,16 @@ const TELEGRAM_BOT_TOKEN = "7781366082:AAGcABsFljdIfO0kn8MPB6F1xhCYy-LAVnM";
 const TELEGRAM_CHAT_ID = "1099301022";
 
 exports.handler = async (event, context) => {
-  // Ambil query parameter 'path' atau referer
-  const originalPath = event.queryStringParameters?.path || event.path || 'Unknown path';
+  // Mengambil path dari query string
+  const originalPath = event.queryStringParameters?.path || 'Unknown path';
+
+  // Jika path adalah 'Unknown path', berarti bukan path yang tidak ditemukan (valid)
+  if (originalPath === 'Unknown path') {
+    return {
+      statusCode: 200,
+      body: JSON.stringify({ message: "Path valid, tidak dikirim ke Telegram." })
+    };
+  }
 
   // Ambil IP yang merequest
   const ip = event.headers['x-forwarded-for'] || event.headers['remote-addr'] || 'Unknown IP';
@@ -19,10 +27,10 @@ exports.handler = async (event, context) => {
 *⚠️ 404 Error Detected*
   
 *Path:* \`${originalPath}\`
-*Timestamp:* ${timestamp}
-*IP Address:* ${ip}
+*Timestamp:* \`${timestamp}\`
+*IP Address:* \`${ip}\`
 
-\`Error Type:\` 404 Not Found
+\`Error Type:\` \`404 Not Found\`
 `;
 
   // Susun URL API Telegram untuk mengirim pesan

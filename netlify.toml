@@ -6,4 +6,4 @@
   to = "/.netlify/functions/handle404?path=:splat"
   status = 404
   force = true
-  rewrite = true  # Menambahkan rewrite untuk memastikan path yang tidak ada diarahkan ke function
+  rewrite = true
