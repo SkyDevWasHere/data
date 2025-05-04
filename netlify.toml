@@ -1,0 +1,11 @@
+# File: netlify.toml
+
+[build]
+  functions = "netlify/functions"
+
+# Redirect semua 404 ke function handle404
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/handle404?path=:splat"
+  status = 404
+  force = true
