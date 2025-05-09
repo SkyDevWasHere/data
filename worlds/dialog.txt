@@ -1,0 +1,9 @@
+"
+add_label_with_icon|big|Edit World Template|left|14922|
+add_spacer|small|
+add_custom_button|setworld_template_NORMAL|textLabel:Set To `2NORMAL;middle_colour:4287365375;border_colour:4287365375;display:block;|
+add_spacer|small|
+add_custom_button|setworld_template_NATURE|textLabel:Set To `2NATURE;middle_colour:4287365375;border_colour:4287365375;display:block;|
+add_spacer|small|
+
+"
