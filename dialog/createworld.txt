@@ -1,0 +1,9 @@
+"
+add_label_with_icon|big|Creating New World|left|14922|
+add_spacer|small|
+add_custom_button|createworld_NATURE|textLabel:Create World Normal;middle_colour:4287365375;border_colour:4287365375;display:block;|
+add_spacer|small|
+add_custom_button|createworld_CLEAR|textLabel:Crate Clear World;middle_colour:4287365375;border_colour:4287365375;display:block;|
+add_spacer|small|
+add_custom_button|createworld_NORMAL|textLabel:Create Normal World;middle_colour:4287365375;border_colour:4287365375;display:block;|
+"
