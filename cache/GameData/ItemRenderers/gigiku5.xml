@@ -6,6 +6,7 @@
 		<Sprite name="g_5_punch_sprite" fileName="game/g_5_p.rttex" textureSize="128"/>
 		<Sprite name="g_punch" fileName="game/g_5_p_ef.rttex" textureSize="64"/>
     	<Sprite name="g_explosion" fileName="game/g_5_p_ef_exp.rttex" textureSize="128" />
+		<Sprite name="g_5_punch_sprite" fileName="game/g_5_p.rttex" textureSize="128"/>
 		<StateMachines>
 		<StateMachine name="Motion">
 			<States>
