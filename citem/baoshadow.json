@@ -18,7 +18,7 @@
     "drop_chance": 0,
     "clothing_type": 3,
     "rarity": 999,
-    "max_amount": 200,
+    "max_amount": 250,
     "extra_file": "game/shadow_dragon_fly.rttex",
     "extra_file_hash": -1487575967,
     "audio_volume": 400,

@@ -21,6 +21,8 @@ add_custom_button|add_citem_goku|textLabel:Add Goku;middle_colour:4287365375;bor
 add_spacer|small|
 add_custom_button|add_citem_bayron|textLabel:Add Naruto Bayron Mode;middle_colour:4287365375;border_colour:4287365375;display:block;|
 add_spacer|small|
-add_custom_button|add_citem_baoshadow|textLabel:Add Bao Shadow Sword;middle_colour:4287365375;border_colour:4287365375;display:block;|
+add_custom_button|add_citem_baoshadow|textLabel:Add Bao Shadow Dragon;middle_colour:4287365375;border_colour:4287365375;display:block;|
+add_spacer|small|
+add_custom_button|add_citem_hellsword|textLabel:Add Hell Sword;middle_colour:4287365375;border_colour:4287365375;display:block;|
 
 "
