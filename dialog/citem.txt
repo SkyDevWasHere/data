@@ -5,11 +5,7 @@ add_custom_button|confirm_add_all_citem|textLabel:Add All Custom Item Choosed;mi
 add_spacer|small|
 add_custom_button|add_citem_naruto|textLabel:Add Naruto;middle_colour:4287365375;border_colour:4287365375;display:block;|
 add_spacer|small|
-add_custom_button|add_citem_ultraman|textLabel:Add Ultraman;middle_colour:4287365375;border_colour:4287365375;display:block;|
-add_spacer|small|
 add_custom_button|add_citem_gojo|textLabel:Add Gojo Satoru;middle_colour:4287365375;border_colour:4287365375;display:block;|
-add_spacer|small|
-add_custom_button|add_citem_itachi|textLabel:Add Itachi;middle_colour:4287365375;border_colour:4287365375;display:block;|
 add_spacer|small|
 add_custom_button|add_citem_2gojo|textLabel:Add GojoV2;middle_colour:4287365375;border_colour:4287365375;display:block;|
 add_spacer|small|
@@ -24,5 +20,7 @@ add_spacer|small|
 add_custom_button|add_citem_goku|textLabel:Add Goku;middle_colour:4287365375;border_colour:4287365375;display:block;|
 add_spacer|small|
 add_custom_button|add_citem_bayron|textLabel:Add Naruto Bayron Mode;middle_colour:4287365375;border_colour:4287365375;display:block;|
+add_spacer|small|
+add_custom_button|add_citem_baoshadow|textLabel:Add Bao Shadow Sword;middle_colour:4287365375;border_colour:4287365375;display:block;|
 
 "
