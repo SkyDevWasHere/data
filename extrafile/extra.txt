@@ -9,4 +9,4 @@ interface/large/skydev_store_text.rttex - 1443937386
 game/ampunpakde.rttex - -200590072
 game/hand_partikel.rttex - -14759055
 interface/large/main_menu_bg_themed.rttex - -2147208295
-interface/large/game_title_themed.rttex - 1808685801
+interface/large/game_title.rttex - 1808685801
