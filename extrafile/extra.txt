@@ -2,3 +2,7 @@ game/hell_sword_eff.rttex - -1129400728
 game/hell_monster.rttex - -2047074663
 game/kaido_hyb_jump_fall.rttex - 1480197408
 game/kaido_hyb_punch.rttex - -1266685131
+game/g_5_asset_aura.rttex - 2000314290
+game/g_5_p_ef.rttex - -1683744395
+game/g_5_p_ef_exp.rttex - -1750916665
+game/g_5_p_ef.rttex - -1683744395
