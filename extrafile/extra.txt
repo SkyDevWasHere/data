@@ -1,2 +1,4 @@
 game/hell_sword_eff.rttex - -1129400728
 game/hell_monster.rttex - -2047074663
+game/kaido_hyb_jump_fall.rttex - 1480197408
+game/kaido_hyb_punch.rttex - -1266685131

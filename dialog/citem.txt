@@ -3,6 +3,8 @@ add_label_with_icon|big|Add Custom Item|left|5956|
 add_spacer|small|
 add_custom_button|confirm_add_all_citem|textLabel:Add All Custom Item Choosed;middle_colour:4287365375;border_colour:4287365375;display:block;|
 add_spacer|small|
+add_custom_button|add_citem_kaido|textLabel:Add Kaido;middle_colour:4287365375;border_colour:4287365375;display:block;|
+add_spacer|small|
 add_custom_button|add_citem_itachi|textLabel:Add Itachi Uciha;middle_colour:4287365375;border_colour:4287365375;display:block;|
 add_spacer|small|
 add_custom_button|add_citem_naruto|textLabel:Add Naruto;middle_colour:4287365375;border_colour:4287365375;display:block;|
