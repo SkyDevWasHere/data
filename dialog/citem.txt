@@ -25,8 +25,6 @@ add_custom_button|add_citem_luffy|textLabel:Add Luffy Gear 5;middle_colour:42873
 add_spacer|small|
 add_custom_button|add_citem_ichigo|textLabel:Add Ichigo;middle_colour:4287365375;border_colour:4287365375;display:block;|
 add_spacer|small|
-add_custom_button|add_citem_sasuke|textLabel:Add Sasuke;middle_colour:4287365375;border_colour:4287365375;display:block;|
-add_spacer|small|
 add_custom_button|add_citem_goku|textLabel:Add Goku;middle_colour:4287365375;border_colour:4287365375;display:block;|
 add_spacer|small|
 add_custom_button|add_citem_bayron|textLabel:Add Naruto Bayron Mode;middle_colour:4287365375;border_colour:4287365375;display:block;|
