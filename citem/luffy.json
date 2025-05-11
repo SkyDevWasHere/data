@@ -18,7 +18,7 @@
     "drop_chance": 0,
     "clothing_type": 3,
     "rarity": 999,
-    "max_amount": 200,
+    "max_amount": 250,
     "extra_file": "audio/g_5_snd.wav",
     "extra_file_hash": 2029126286,
     "audio_volume": 80,
