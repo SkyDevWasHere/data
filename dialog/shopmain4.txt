@@ -35,4 +35,51 @@ add_custom_button|shopgems_1_5638_2500000_gems|image:interface/large/skydev_stor
 add_custom_label|`92,500,000 GEMS``|size:tiny;target:shopgems_1_5638_2500000_gems;top:0.90;left:0.50|
 add_custom_margin|x:11;y:0|
 
+
+//flashaxe
+add_custom_button|shopgems_1_1836_299999_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:4,0;width:0.19;|
+add_custom_label|`9299,999 GEMS``|size:tiny;target:shopgems_1_1836_299999_gems;top:0.90;left:0.50|
+add_custom_margin|x:0;y:20|
+
+//sugarcane
+add_custom_button|shopgems_250_954_5000_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:5,0;width:0.19;|
+add_custom_label|`95,000 GEMS``|size:tiny;target:shopgems_250_954_5000_gems;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//pinball
+add_custom_button|shopgems_250_526_7500_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:6,0;width:0.19;|
+add_custom_label|`97,500 GEMS``|size:tiny;target:shopgems_250_526_7500_gems;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//chand
+add_custom_button|shopgems_250_340_15000_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:7,0;width:0.19;|
+add_custom_label|`915,000 GEMS``|size:tiny;target:shopgems_250_340_15000_gems;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//pot
+add_custom_button|shopgems_250_542_25000_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:8,0;width:0.19;|
+add_custom_label|`925,000 GEMS``|size:tiny;target:shopgems_250_542_25000_gems;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+
+//lpot
+add_custom_button|shopgems_250_21078_50000_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:9,0;width:0.19;|
+add_custom_label|`950,000 GEMS``|size:tiny;target:shopgems_250_21078_50000_gems;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//sorrow
+add_custom_button|shopgems_1_1966_899999_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:5,0;width:0.19;|
+add_custom_label|`9899,999 GEMS``|size:tiny;target:shopgems_1_1966_899999_gems;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//chicken plow
+add_custom_button|shopgems_1_5022_1899999_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:6,0;width:0.19;|
+add_custom_label|`91899,999 GEMS``|size:tiny;target:shopgems_1_5022_1899999_gems;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//chicken plow
+add_custom_button|shopgems_1_228_500_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:7,0;width:0.19;|
+add_custom_label|`9500 GEMS``|size:tiny;target:shopgems_1_228_500_gems;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
 "
