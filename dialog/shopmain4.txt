@@ -65,21 +65,31 @@ add_custom_margin|x:11;y:0|
 //lpot
 add_custom_button|shopgems_250_21078_50000_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:9,0;width:0.19;|
 add_custom_label|`950,000 GEMS``|size:tiny;target:shopgems_250_21078_50000_gems;top:0.90;left:0.50|
-add_custom_margin|x:11;y:0|
+add_custom_margin|x:0;y:20|
 
 //sorrow
-add_custom_button|shopgems_1_1966_899999_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:5,0;width:0.19;|
+add_custom_button|shopgems_1_1966_899999_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:0,1;width:0.19;|
 add_custom_label|`9899,999 GEMS``|size:tiny;target:shopgems_1_1966_899999_gems;top:0.90;left:0.50|
 add_custom_margin|x:11;y:0|
 
 //chicken plow
-add_custom_button|shopgems_1_5022_1899999_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:6,0;width:0.19;|
+add_custom_button|shopgems_1_5022_1899999_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:1,1;width:0.19;|
 add_custom_label|`91899,999 GEMS``|size:tiny;target:shopgems_1_5022_1899999_gems;top:0.90;left:0.50|
 add_custom_margin|x:11;y:0|
 
-//chicken plow
-add_custom_button|shopgems_1_228_500_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:7,0;width:0.19;|
+//growspray
+add_custom_button|shopgems_1_228_500_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:2,1;width:0.19;|
 add_custom_label|`9500 GEMS``|size:tiny;target:shopgems_1_228_500_gems;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//growspray2
+add_custom_button|shopgems_1_1778_2500_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:3,1;width:0.19;|
+add_custom_label|`92500 GEMS``|size:tiny;target:shopgems_1_1778_2500_gems;top:0.90;left:0.50|
+add_custom_margin|x:11;y:0|
+
+//uws
+add_custom_button|shopgems_1_12600_499999_gems|image:interface/large/skydev_store_farmable.rttex;image_size:300,300;state:enabled;frame:4,1;width:0.19;|
+add_custom_label|`9499,999 GEMS``|size:tiny;target:shopgems_1_12600_499999_gems;top:0.90;left:0.50|
 add_custom_margin|x:11;y:0|
 
 "
