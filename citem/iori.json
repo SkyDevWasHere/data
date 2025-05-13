@@ -14,7 +14,7 @@
             "spread_type": 1,
             "is_stripey_wallpaper": 0,
             "collision_type": 1,
-            "break_hits": "8r",
+            "break_hits": 7,
             "drop_chance": 0,
             "clothing_type": 3,
             "rarity": 999,
