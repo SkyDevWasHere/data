@@ -3,6 +3,12 @@ add_label_with_icon|big|Add Custom Item|left|5956|
 add_spacer|small|
 add_custom_button|confirm_add_all_citem|textLabel:Add All Custom Item Choosed;middle_colour:4287365375;border_colour:4287365375;display:block;|
 add_spacer|small|
+add_custom_button|add_citem_igris|textLabel:Add Igris Solo Leveling;middle_colour:4287365375;border_colour:4287365375;display:block;|
+add_spacer|small|
+add_custom_button|add_citem_2baoshadow|textLabel:Add Bao Shadow V2;middle_colour:4287365375;border_colour:4287365375;display:block;|
+add_spacer|small|
+add_custom_button|add_citem_iori|textLabel:Add Iori Yagami;middle_colour:4287365375;border_colour:4287365375;display:block;|
+add_spacer|small|
 add_custom_button|add_citem_sungjinwo|textLabel:Add Sungjinwo;middle_colour:4287365375;border_colour:4287365375;display:block;|
 add_spacer|small|
 add_custom_button|add_citem_levi|textLabel:Add Levi;middle_colour:4287365375;border_colour:4287365375;display:block;|
