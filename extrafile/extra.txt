@@ -11,3 +11,8 @@ game/hand_partikel.rttex - -14759055
 interface/large/main_menu_bg_themed.rttex - 1704300131
 interface/large/game_title_themed.rttex - 1293611960
 interface/large/skydev_store_provider.rttex - -597316677
+game/iori_eff.rttex - 731075627
+game/shadow_dragon_extra.rttex - -77759529
+game/shadow_dragon_walk2.rttex - 1170661392
+game/shadow_dragon_extra2.rttex - 26919017
+game/aura_eff.rttex - -726352476
