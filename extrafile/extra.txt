@@ -16,3 +16,4 @@ game/shadow_dragon_extra.rttex - -77759529
 game/shadow_dragon_walk2.rttex - 1170661392
 game/shadow_dragon_extra2.rttex - 26919017
 game/aura_eff.rttex - -726352476
+interface/large/social_portal.rttex - 1634730943
