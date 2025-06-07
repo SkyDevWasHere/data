@@ -9,6 +9,7 @@ add_custom_margin|x:11;y:0|
 add_custom_button|wotd|image:interface/large/idev_banner.rttex;image_size:300,300;frame:1,4;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|redeemmenu|image:interface/large/idev_banner.rttex;image_size:300,300;frame:3,0;width:0.19;|
+add_custom_margin|x:0;y:11|
 
 add_custom_button|createworld|image:interface/large/idev_banner.rttex;image_size:300,300;frame:4,0;width:0.19;|
 add_custom_margin|x:11;y:11|
