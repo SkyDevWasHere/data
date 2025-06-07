@@ -1,5 +1,5 @@
 "
-add_label_with_icon|big|			`wSocial Portal			|left|0|
+add_label_with_icon|big|                         Social Portal|left|0|
 add_custom_button|showguild|image:interface/large/social_portal.rttex;image_size:1024,256;frame:0,0;width:1;|
 add_spacer|small|
 add_custom_button|showguild|image:interface/large/idev_banner.rttex;image_size:300,300;frame:0,0;width:0.19;|
