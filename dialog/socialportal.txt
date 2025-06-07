@@ -9,10 +9,10 @@ add_custom_margin|x:11;y:0|
 add_custom_button|wotd|image:interface/large/idev_banner.rttex;image_size:300,300;frame:1,4;width:0.19;|
 add_custom_margin|x:11;y:10|
 add_custom_button|redeemmenu|image:interface/large/idev_banner.rttex;image_size:300,300;frame:3,0;width:0.19;|
-add_custom_margin|x:0;y:11|
+add_custom_margin|x:11;y:10|
 
 add_custom_button|createworld|image:interface/large/idev_banner.rttex;image_size:300,300;frame:4,0;width:0.19;|
-add_custom_margin|x:11;y:0|
+add_custom_margin|x:0;y:11|
 add_custom_button|spam|image:interface/large/idev_banner.rttex;image_size:300,300;frame:5,0;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|leaderboard|image:interface/large/idev_banner.rttex;image_size:300,300;frame:6,0;width:0.19;|
@@ -20,11 +20,11 @@ add_custom_margin|x:11;y:10|
 add_custom_button|telephone|image:interface/large/idev_banner.rttex;image_size:300,300;frame:7,0;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|dailyquest|image:interface/large/idev_banner.rttex;image_size:300,300;frame:8,0;width:0.19;|
-add_custom_margin|x:0;y:11|
+add_custom_margin|x:11;y:0|
 
 
 add_custom_button|upbp|image:interface/large/idev_banner.rttex;image_size:300,300;frame:9,0;width:0.19;|
-add_custom_margin|x:11;y:0|
+add_custom_margin|x:0;y:11|
 add_custom_button|vbp|image:interface/large/idev_banner.rttex;image_size:300,300;frame:0,1;width:0.19;|
 add_custom_margin|x:11;y:10|
 add_custom_button|growpedia|image:interface/large/idev_banner.rttex;image_size:300,300;frame:1,1;width:0.19;|
@@ -32,11 +32,11 @@ add_custom_margin|x:11;y:0|
 add_custom_button|myset|image:interface/large/idev_banner.rttex;image_size:300,300;frame:2,1;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|cheatmenu|image:interface/large/idev_banner.rttex;image_size:300,300;frame:2,5;width:0.19;|
-add_custom_margin|x:0;y:11|
+add_custom_margin|x:11;y:0|
 
 
 add_custom_button|cworld|image:interface/large/idev_banner.rttex;image_size:300,300;frame:3,1;width:0.19;|
-add_custom_margin|x:11;y:0|
+add_custom_margin|x:0;y:11|
 add_custom_button|removedrop|image:interface/large/idev_banner.rttex;image_size:300,300;frame:4,1;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|gplant|image:interface/large/idev_banner.rttex;image_size:300,300;frame:6,1;width:0.19;|
@@ -44,10 +44,10 @@ add_custom_margin|x:11;y:0|
 add_custom_button|menu_combiner|image:interface/large/idev_banner.rttex;image_size:300,300;frame:8,1;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|myskin|image:interface/large/idev_banner.rttex;image_size:300,300;frame:9,1;width:0.19;|
-add_custom_margin|x:0;y:11|
+add_custom_margin|x:11;y:0|
 
 add_custom_button|spotify_menu|image:interface/large/idev_banner.rttex;image_size:300,300;frame:0,2;width:0.19;|
-add_custom_margin|x:11;y:0|
+add_custom_margin|x:0;y:11|
 add_custom_button|topup|image:interface/large/idev_banner.rttex;image_size:300,300;frame:1,2;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|verifedworld|image:interface/large/idev_banner.rttex;image_size:300,300;frame:3,2;width:0.19;|
@@ -55,10 +55,10 @@ add_custom_margin|x:11;y:0|
 add_custom_button|verifedplayer|image:interface/large/idev_banner.rttex;image_size:300,300;frame:2,2;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|banned|image:interface/large/idev_banner.rttex;image_size:300,300;frame:4,2;width:0.19;|
-add_custom_margin|x:0;y:11|
+add_custom_margin|x:11;y:0|
 
 add_custom_button|cursed|image:interface/large/idev_banner.rttex;image_size:300,300;frame:5,2;width:0.19;|
-add_custom_margin|x:11;y:0|
+add_custom_margin|x:0;y:11|
 add_custom_button|muted|image:interface/large/idev_banner.rttex;image_size:300,300;frame:6,2;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|boost|image:interface/large/idev_banner.rttex;image_size:300,300;frame:7,2;width:0.19;|
@@ -66,11 +66,11 @@ add_custom_margin|x:11;y:0|
 add_custom_button|boostgem|image:interface/large/idev_banner.rttex;image_size:300,300;frame:8,2;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|boostexp|image:interface/large/idev_banner.rttex;image_size:300,300;frame:9,2;width:0.19;|
-add_custom_margin|x:0;y:11|
+add_custom_margin|x:11;y:0|
 
 
 add_custom_button|customwrench|image:interface/large/idev_banner.rttex;image_size:300,300;frame:1,3;width:0.19;|
-add_custom_margin|x:11;y:0|
+add_custom_margin|x:0;y:11|
 add_custom_button|titlecollection|image:interface/large/idev_banner.rttex;image_size:300,300;frame:9,3;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|globalchat|image:interface/large/idev_banner.rttex;image_size:300,300;frame:2,3;width:0.19;|
@@ -78,10 +78,10 @@ add_custom_margin|x:11;y:0|
 add_custom_button|surging|image:interface/large/idev_banner.rttex;image_size:300,300;frame:3,3;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|geigerexchange|image:interface/large/idev_banner.rttex;image_size:300,300;frame:4,3;width:0.19;|
-add_custom_margin|x:0;y:11|
+add_custom_margin|x:11;y:0|
 
 add_custom_button|crystal|image:interface/large/idev_banner.rttex;image_size:300,300;frame:5,3;width:0.19;|
-add_custom_margin|x:11;y:0|
+add_custom_margin|x:0;y:11|
 add_custom_button|chemicalexchange|image:interface/large/idev_banner.rttex;image_size:300,300;frame:6,3;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|sellfish|image:interface/large/idev_banner.rttex;image_size:300,300;frame:7,1;width:0.19;|
@@ -89,11 +89,11 @@ add_custom_margin|x:11;y:0|
 add_custom_button|surgshop|image:interface/large/idev_banner.rttex;image_size:300,300;frame:4,5;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|providershop|image:interface/large/idev_banner.rttex;image_size:300,300;frame:5,5;width:0.19;|
-add_custom_margin|x:0;y:11|
+add_custom_margin|x:11;y:0|
 
 
 add_custom_button|farmshop|image:interface/large/idev_banner.rttex;image_size:300,300;frame:6,5;width:0.19;|
-add_custom_margin|x:11;y:0|
+add_custom_margin|x:0;y:11|
 add_custom_button|paintshop|image:interface/large/idev_banner.rttex;image_size:300,300;frame:2,6;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|fruitshop|image:interface/large/idev_banner.rttex;image_size:300,300;frame:3,6;width:0.19;|
@@ -101,9 +101,9 @@ add_custom_margin|x:11;y:0|
 add_custom_button|limitedshop|image:interface/large/idev_banner.rttex;image_size:300,300;frame:4,6;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|ftools|image:interface/large/idev_banner.rttex;image_size:300,300;frame:2,4;width:0.19;|
-add_custom_margin|x:11;y:11|
+add_custom_margin|x:11;y:0|
 add_custom_button|gift|image:interface/large/idev_banner.rttex;image_size:300,300;frame:1,5;width:0.19;|
-add_custom_margin|x:0;y:0|
+add_custom_margin|x:0;y:11|
 add_button_with_icon||END_LIST|noflags|0|0|
 add_custom_margin|x:0;y:200|
 add_label_with_icon|big|`wProxy Portal`|left|32|
