@@ -7,7 +7,7 @@ add_custom_margin|x:11;y:0|
 add_custom_button|homeworld|image:interface/large/idev_banner.rttex;image_size:300,300;frame:2,0;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|wotd|image:interface/large/idev_banner.rttex;image_size:300,300;frame:1,4;width:0.19;|
-add_custom_margin|x:11;y:10|
+add_custom_margin|x:11;y:0|
 add_custom_button|redeemmenu|image:interface/large/idev_banner.rttex;image_size:300,300;frame:3,0;width:0.19;|
 
 add_custom_button|createworld|image:interface/large/idev_banner.rttex;image_size:300,300;frame:4,0;width:0.19;|
@@ -15,7 +15,7 @@ add_custom_margin|x:0;y:11|
 add_custom_button|spam|image:interface/large/idev_banner.rttex;image_size:300,300;frame:5,0;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|leaderboard|image:interface/large/idev_banner.rttex;image_size:300,300;frame:6,0;width:0.19;|
-add_custom_margin|x:11;y:10|
+add_custom_margin|x:11;y:0|
 add_custom_button|telephone|image:interface/large/idev_banner.rttex;image_size:300,300;frame:7,0;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|dailyquest|image:interface/large/idev_banner.rttex;image_size:300,300;frame:8,0;width:0.19;|
@@ -25,7 +25,7 @@ add_custom_margin|x:11;y:0|
 add_custom_button|upbp|image:interface/large/idev_banner.rttex;image_size:300,300;frame:9,0;width:0.19;|
 add_custom_margin|x:0;y:11|
 add_custom_button|vbp|image:interface/large/idev_banner.rttex;image_size:300,300;frame:0,1;width:0.19;|
-add_custom_margin|x:11;y:10|
+add_custom_margin|x:11;y:0|
 add_custom_button|growpedia|image:interface/large/idev_banner.rttex;image_size:300,300;frame:1,1;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|myset|image:interface/large/idev_banner.rttex;image_size:300,300;frame:2,1;width:0.19;|
