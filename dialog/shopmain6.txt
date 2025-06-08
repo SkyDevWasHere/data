@@ -6,7 +6,6 @@ add_custom_button|shopgems2|image:interface/large/skydev_store_layout.rttex;imag
 add_custom_button|shopgems3|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:5,0;width:0.15;min_width:80;|
 add_custom_button|shopgems4|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:7,0;width:0.15;min_width:80;|
 add_custom_button|shopgems5|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:9,0;width:0.15;min_width:80;|
-add_custom_button|shopgems6|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:0,1;width:0.15;min_width:80;|
 end_custom_tabs|
 reset_placement_x|
 

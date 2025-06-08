@@ -9,5 +9,4 @@ add_custom_button|shopgems5|image:interface/large/skydev_store_layout.rttex;imag
 add_custom_button|shopgems6|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:1,1;width:0.15;min_width:80;|
 end_custom_tabs|
 reset_placement_x|
-
 "
