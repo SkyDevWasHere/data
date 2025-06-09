@@ -324,6 +324,55 @@
 }
 
 /*-------------------------------------------------------------------------------*/
+/*--------------    sky punya     --------------*/
+
+@spritesheet skydev_buttons {
+    src: interface/large/skydev_event_button.rttex;
+    resolution: 1x;
+    bank_icon: 0px 0px 128px 128px;
+    title_icon: 128px 0px 128px 128px;
+    redeem_icon: 0px 128px 128px 128px;
+    leaderboard_icon: 256px 0px 128px 128px;
+    dq_icon: 384px 0px 128px 128px;
+    bp_icon: 128px 128px 128px 128px;
+    ai_icon: 256px 128px 128px 128px;
+    guild_icon: 384px 128px 128px 128px;
+}
+
+.event_item .state0 .guild-skydev {
+    decorator: image(guild_icon);
+}
+.event_item .state0 .ai-skydev {
+    decorator: image(ai_icon);
+}
+.event_item .state0 .bp-skydev {
+    decorator: image(bp_icon);
+}
+.event_item .state0 .bank-skydev {
+    decorator: image(bank_icon);
+}
+
+.event_item .state0 .title-skydev {
+    decorator: image(title_icon);
+}
+
+.event_item .state0 .redeem-skydev {
+    decorator: image(redeem_icon);
+}
+
+.event_item .state0 .leaderboard-skydev {
+    decorator: image(leaderboard_icon);
+}
+
+.event_item .state0 .dq-skydev {
+    decorator: image(dq_icon);
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------*/
 /*--------------    ubi bingo event button     --------------*/
 
 @spritesheet ubi_bingo_button_sprite {
