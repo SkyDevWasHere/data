@@ -19,4 +19,4 @@ game/aura_eff.rttex - -726352476
 interface/large/social_portal.rttex - 1634730943
 interface/large/idev_banner.rttex - -506479594
 interface/large/skydev_event_button.rttex - -937494292
-GameData/UI/EventButtons/EventButtons.rcss - -1247937036
+GameData/UI/WorldUI/EventButtons/EventButtons.rcss - -1247937036
