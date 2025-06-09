@@ -1,94 +1,25 @@
 "
 disable_resize|
 start_custom_tabs|
-add_custom_button|shopgems|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:1,0;width:0.15;min_width:80;|
-add_custom_button|shopgems2|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:2,0;width:0.15;min_width:80;|
+add_custom_button|shopgems|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:0,0;width:0.15;min_width:80;|
+add_custom_button|shopgems2|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:3,0;width:0.15;min_width:80;|
 add_custom_button|shopgems3|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:5,0;width:0.15;min_width:80;|
 add_custom_button|shopgems4|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:7,0;width:0.15;min_width:80;|
 add_custom_button|shopgems5|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:9,0;width:0.15;min_width:80;|
-add_custom_button|shopgems6|image:interface/large/skydev_store_layout.rttex;image_size:230,80;frame:1,1;width:0.15;min_width:80;|
 end_custom_tabs|
 reset_placement_x|
 
-
-add_custom_button||image:interface/large/skydev_store_text.rttex;image_size:1024,80;state:disabled;frame:1,0;width:1;|
-add_custom_margin|x:0;y:20|
-
-
-//signal jammer
-add_custom_button|shopgems_1_226_5000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:0,0;width:0.19;|
-add_custom_label|`95,000 GEMS``|size:tiny;target:shopgems_1_226_5000_gems;top:0.90;left:0.50|
+add_custom_button|shopgems_1_242_2000_gems|image:interface/large/skydev_store_main.rttex;image_size:300,300;state:enabled;frame:0,0;width:0.19;|
+add_custom_label|`b2,000 GEMS``|size:tiny;target:shopgems_1_242_2000_gems;top:0.93;left:0.50|
 add_custom_margin|x:11;y:0|
 
-//punch jammer
-add_custom_button|shopgems_1_1276_15000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:1,0;width:0.19;|
-add_custom_label|`915,000 GEMS``|size:tiny;target:shopgems_1_1276_15000_gems;top:0.90;left:0.50|
+add_custom_button|shopgems_1_1796_200000_gems|image:interface/large/skydev_store_main.rttex;image_size:300,300;state:enabled;frame:1,0;width:0.19;|
+add_custom_label|`b200,000 GEMS``|size:tiny;target:shopgems_1_1796_200000_gems;top:0.93;left:0.50|
+add_custom_margin|x:11;y:0|
+
+add_custom_button|shopgems_1_7188_20000000_gems|image:interface/large/skydev_store_main.rttex;image_size:300,300;state:enabled;frame:2,0;width:0.19;|
+add_custom_label|`b20,000,000 GEMS``|size:tiny;target:shopgems_1_7188_20000000_gems;top:0.93;left:0.50|
 add_custom_margin|x:11;y:0|
 
 
-//zombie jammer
-add_custom_button|shopgems_1_1278_15000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:2,0;width:0.19;|
-add_custom_label|`915,000 GEMS``|size:tiny;target:shopgems_1_1278_15000_gems;top:0.90;left:0.50|
-add_custom_margin|x:11;y:0|
-
-//antigravity
-add_custom_button|shopgems_1_4992_250000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:3,0;width:0.19;|
-add_custom_label|`9250,000 GEMS``|size:tiny;target:shopgems_1_4992_250000_gems;top:0.90;left:0.50|
-add_custom_margin|x:11;y:0|
-
-//fire house
-add_custom_button|shopgems_1_3072_50000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:4,0;width:0.19;|
-add_custom_label|`950,000 GEMS``|size:tiny;target:shopgems_1_3072_50000_gems;top:0.90;left:0.50|
-add_custom_margin|x:0;y:10|
-
-//pineapple guardian
-add_custom_button|shopgems_1_3616_250000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:5,0;width:0.19;|
-add_custom_label|`9250,000 GEMS``|size:tiny;target:shopgems_1_3616_250000_gems;top:0.90;left:0.50|
-add_custom_margin|x:11;y:0|
-
-//minimod
-add_custom_button|shopgems_1_4758_150000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:6,0;width:0.19;|
-add_custom_label|`9150,000 GEMS``|size:tiny;target:shopgems_1_4758_150000_gems;top:0.90;left:0.50|
-add_custom_margin|x:11;y:0|
-
-//vending
-add_custom_button|shopgems_1_2978_10000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:7,0;width:0.19;|
-add_custom_label|`910,000 GEMS``|size:tiny;target:shopgems_1_2978_10000_gems;top:0.90;left:0.50|
-add_custom_margin|x:11;y:0|
-
-
-//digi vending
-add_custom_button|shopgems_1_9268_25000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:8,0;width:0.19;|
-add_custom_label|`925,000 GEMS``|size:tiny;target:shopgems_1_9268_25000_gems;top:0.90;left:0.50|
-add_custom_margin|x:11;y:0|
-
-//door mover
-add_custom_button|shopgems_1_1404_8000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:9,0;width:0.19;|
-add_custom_label|`98,000 GEMS``|size:tiny;target:shopgems_1_1404_8000_gems;top:0.90;left:0.50|
-add_custom_margin|x:0;y:10|
-
-//change of addres
-add_custom_button|shopgems_1_2580_25000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:0,1;width:0.19;|
-add_custom_label|`925,000 GEMS``|size:tiny;target:shopgems_1_2580_25000_gems;top:0.90;left:0.50|
-add_custom_margin|x:11;y:0|
-
-//megaphone
-add_custom_button|shopgems_1_2480_50000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:1,1;width:0.19;|
-add_custom_label|`950,000 GEMS``|size:tiny;target:shopgems_1_2480_50000_gems;top:0.90;left:0.50|
-add_custom_margin|x:11;y:0|
-
-//vip entrance
-add_custom_button|shopgems_1_3798_75000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:2,1;width:0.19;|
-add_custom_label|`975,000 GEMS``|size:tiny;target:shopgems_1_3798_75000_gems;top:0.90;left:0.50|
-add_custom_margin|x:11;y:0|
-
-//pathmaker
-add_custom_button|shopgems_125_1684_2000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:3,1;width:0.19;|
-add_custom_label|`92,000 GEMS``|size:tiny;target:shopgems_125_1684_2000_gems;top:0.90;left:0.50|
-add_custom_margin|x:11;y:0|
-
-//password door
-add_custom_button|shopgems_10_762_1000_gems|image:interface/large/skydev_store_tools.rttex;image_size:300,300;state:enabled;frame:4,1;width:0.19;|
-add_custom_label|`91,000 GEMS``|size:tiny;target:shopgems_10_762_1000_gems;top:0.90;left:0.50|
-add_custom_margin|x:0;y:10|
 "
