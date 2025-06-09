@@ -10,14 +10,14 @@ end_custom_tabs|
 reset_placement_x|
 
 add_custom_button|shopgems_1_242_2000_gems|image:interface/large/skydev_store_main.rttex;image_size:300,300;state:enabled;frame:0,0;width:0.19;|
-add_custom_label|`92,000 GEMS``|size:medium;target:shopgems_1_242_2000_gems;top:0.90;left:0.50|
+add_custom_label|`92,000 GEMS``|size:tiny;target:shopgems_1_242_2000_gems;top:0.90;left:0.50|
 add_custom_margin|x:11;y:0|
 
 add_custom_button|shopgems_1_1796_200000_gems|image:interface/large/skydev_store_main.rttex;image_size:300,300;state:enabled;frame:1,0;width:0.19;|
-add_custom_label|`9200,000 GEMS``|size:medium;target:shopgems_1_1796_200000_gems;top:0.90;left:0.50|
+add_custom_label|`9200,000 GEMS``|size:tiny;target:shopgems_1_1796_200000_gems;top:0.90;left:0.50|
 add_custom_margin|x:11;y:0|
 
 add_custom_button|shopgems_1_7188_20000000_gems|image:interface/large/skydev_store_main.rttex;image_size:300,300;state:enabled;frame:2,0;width:0.19;|
-add_custom_label|`920,000,000 GEMS``|size:medium;target:shopgems_1_7188_20000000_gems;top:0.90;left:0.50|
+add_custom_label|`920,000,000 GEMS``|size:tiny;target:shopgems_1_7188_20000000_gems;top:0.90;left:0.50|
 add_custom_margin|x:11;y:0|
 "
