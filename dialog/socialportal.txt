@@ -39,8 +39,8 @@ add_custom_button|cworld|image:interface/large/idev_banner.rttex;image_size:300,
 add_custom_margin|x:11;y:0|
 add_custom_button|removedrop|image:interface/large/idev_banner.rttex;image_size:300,300;frame:4,1;width:0.19;|
 add_custom_margin|x:11;y:0|
-add_custom_button|gplant|image:interface/large/idev_banner.rttex;image_size:300,300;frame:6,1;width:0.19;|
-add_custom_margin|x:11;y:0|
+//add_custom_button|gplant|image:interface/large/idev_banner.rttex;image_size:300,300;frame:6,1;width:0.19;|
+//add_custom_margin|x:11;y:0|
 add_custom_button|menu_combiner|image:interface/large/idev_banner.rttex;image_size:300,300;frame:8,1;width:0.19;|
 add_custom_margin|x:11;y:0|
 add_custom_button|myskin|image:interface/large/idev_banner.rttex;image_size:300,300;frame:9,1;width:0.19;|
