@@ -19,7 +19,7 @@ add_custom_button|myset|image:interface/large/idev_banner.rttex;image_size:300,3
 add_custom_button|cheatmenu|image:interface/large/idev_banner.rttex;image_size:300,300;frame:2,5;width:0.19;|
 add_custom_button|cworld|image:interface/large/idev_banner.rttex;image_size:300,300;frame:3,1;width:0.19;|
 add_custom_button|removedrop|image:interface/large/idev_banner.rttex;image_size:300,300;frame:4,1;width:0.19;|
-add_custom_button|gplant|image:interface/large/idev_banner.rttex;image_size:300,300;frame:6,1;width:0.19;|
+//add_custom_button|gplant|image:interface/large/idev_banner.rttex;image_size:300,300;frame:6,1;width:0.19;|
 add_custom_button|menu_combiner|image:interface/large/idev_banner.rttex;image_size:300,300;frame:8,1;width:0.19;|
 add_custom_button|myskin|image:interface/large/idev_banner.rttex;image_size:300,300;frame:9,1;width:0.19;|
 add_custom_button|spotify_menu|image:interface/large/idev_banner.rttex;image_size:300,300;frame:0,2;width:0.19;|
@@ -29,9 +29,9 @@ add_custom_button|verifedplayer|image:interface/large/idev_banner.rttex;image_si
 add_custom_button|banned|image:interface/large/idev_banner.rttex;image_size:300,300;frame:4,2;width:0.19;|
 add_custom_button|cursed|image:interface/large/idev_banner.rttex;image_size:300,300;frame:5,2;width:0.19;|
 add_custom_button|muted|image:interface/large/idev_banner.rttex;image_size:300,300;frame:6,2;width:0.19;|
-add_custom_button|boost|image:interface/large/idev_banner.rttex;image_size:300,300;frame:7,2;width:0.19;|
-add_custom_button|boostgem|image:interface/large/idev_banner.rttex;image_size:300,300;frame:8,2;width:0.19;|
-add_custom_button|boostexp|image:interface/large/idev_banner.rttex;image_size:300,300;frame:9,2;width:0.19;|
+//add_custom_button|boost|image:interface/large/idev_banner.rttex;image_size:300,300;frame:7,2;width:0.19;|
+//add_custom_button|boostgem|image:interface/large/idev_banner.rttex;image_size:300,300;frame:8,2;width:0.19;|
+//add_custom_button|boostexp|image:interface/large/idev_banner.rttex;image_size:300,300;frame:9,2;width:0.19;|
 add_custom_button|customwrench|image:interface/large/idev_banner.rttex;image_size:300,300;frame:1,3;width:0.19;|
 add_custom_button|titlecollection|image:interface/large/idev_banner.rttex;image_size:300,300;frame:9,3;width:0.19;|
 add_custom_button|globalchat|image:interface/large/idev_banner.rttex;image_size:300,300;frame:2,3;width:0.19;|
